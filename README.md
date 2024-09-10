@@ -41,12 +41,11 @@ This Python script is a powerful tool for periodically changing the MAC address 
 1. Run the script as root:
 
     ```bash
-    sudo python3 mac_changer.py
+    sudo python3 maccycler.py
     ```
-
-2. When prompted, enter the network interface (e.g., `wlan0`, `eth0`), the time interval for periodic MAC changes (in seconds), and the vendor of your choice from the list provided. Alternatively, choose the random option for a completely random MAC address.
-
-3. To stop the script and restore the original MAC address, press `CTRL+C`.
+2. Remeber, it will fail to execute correctly without 'sudo'.
+   
+3. When prompted, enter the network interface (e.g., `wlan0`, `eth0`), the time interval for periodic MAC changes (in seconds), and the vendor of your choice from the list provided. Alternatively, choose the random option for a completely random MAC address.
 
 ## Example
 
