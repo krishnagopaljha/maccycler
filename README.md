@@ -1,13 +1,12 @@
 # MAC Changer Tool
 
-This Python script is a powerful tool for periodically changing the MAC address of a network interface in Kali Linux. It allows users to spoof their MAC address to one from a specific vendor or generate a completely random one. The tool can automatically change the MAC address at a user-defined interval and restores the original MAC address when the script is terminated (e.g., via `CTRL+C`).
+This Python script is a powerful tool for periodically changing the MAC address of a network interface in Kali Linux. It allows users to spoof their MAC address to one from a specific vendor or generate a completely random one.
 
 ## Features
 
 - **Periodic MAC Address Change**: Automatically changes the MAC address at a specified time interval.
 - **Vendor Spoofing**: Allows users to select a MAC address prefix from major vendors such as Apple, Intel, Cisco, and others.
 - **Random MAC Option**: Option to generate a completely random MAC address.
-- **Original MAC Restoration**: Automatically restores the original MAC address when the script is terminated (e.g., using `CTRL+C`).
 - **Real-time MAC Change**: Displays the newly generated MAC address after every change.
 
 ## Requirements
